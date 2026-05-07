@@ -94,11 +94,29 @@
       <option name="project" value="LOCAL" />
       <updated>1778142036406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add class files&#10;&#10;add ExpressDomesticShipping.java&#10;add StandardInternationalShipping.java">
+      <option name="closed" value="true" />
+      <created>1778143261709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778143261709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mod new calculator files&#10;&#10;implemented methods in StandardInternationalShipping.java&#10;and ExpressDomesticShipping.java files">
+      <option name="closed" value="true" />
+      <created>1778143959212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778143959212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add config, mod pom.xml file&#10;&#10;add ShippingCostCalculatorConfig.java file and basic code.&#10;mod pom.xml file add spring dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="add config, mod pom.xml file&#10;&#10;add ShippingCostCalculatorConfig.java file and basic code.&#10;mod pom.xml file add spring dependencies." />
+    <MESSAGE value="add class files&#10;&#10;add ExpressDomesticShipping.java&#10;add StandardInternationalShipping.java" />
+    <MESSAGE value="mod new calculator files&#10;&#10;implemented methods in StandardInternationalShipping.java&#10;and ExpressDomesticShipping.java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod new calculator files&#10;&#10;implemented methods in StandardInternationalShipping.java&#10;and ExpressDomesticShipping.java files" />
   </component>
 </project>
