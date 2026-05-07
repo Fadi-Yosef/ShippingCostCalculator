@@ -10,6 +10,7 @@ import se.lexicon.service.ShippingCostCalculator;
 public class ExpressInternationalShipping implements ShippingCostCalculator {
 
     @Override
+<<<<<<< HEAD
     public boolean supports(ShippingRequest request) {
         return request.destination() == Destination.INTERNATIONAL
                 && request.speed() == Speed.EXPRESS;
@@ -18,5 +19,14 @@ public class ExpressInternationalShipping implements ShippingCostCalculator {
     @Override
     public double calculate(ShippingRequest request) {
         return 25 + 4.5 * request.weightKg();
+=======
+    public boolean supports(ShippingRequest r) {
+        return r.destination() == Destination.INTERNATIONAL && r.speed() == Speed.EXPRESS;
+    }
+
+    @Override
+    public double calculate(ShippingRequest r) {
+        return 25 + 4.5 * r.weightKg();
+>>>>>>> origin/Kristy
     }
 }

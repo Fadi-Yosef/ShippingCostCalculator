@@ -11,6 +11,9 @@ public class StandardDomesticShipping implements ShippingCostCalculator {
 
     @Override
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Kristy
     public boolean supports(ShippingRequest r) {
         return r.destination() == Destination.DOMESTIC && r.speed() == Speed.STANDARD;
     }
