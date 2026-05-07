@@ -10,13 +10,13 @@ import se.lexicon.service.ShippingCostCalculator;
 public class StandardDomesticShipping implements ShippingCostCalculator {
 
     @Override
-    public boolean supports(ShippingRequest r) {
-        return r.destination() == Destination.DOMESTIC
-                && r.speed() == Speed.STANDARD;
+    public boolean supports(ShippingRequest request) {
+        return request.destination() == Destination.DOMESTIC
+                && request.speed() == Speed.STANDARD;
     }
 
     @Override
-    public double calculate(ShippingRequest r) {
-        return 5 + 1.2 * r.weightKg();
+    public double calculate(ShippingRequest request) {
+        return 5 + 1.2 * request.weightKg();
     }
 }
